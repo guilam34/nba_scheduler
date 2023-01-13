@@ -7,6 +7,8 @@ var LOS_ANGELES_LAKERS = Team{
 		lng:      118.2437,
 		timeZone: PST,
 	},
+	conference: WESTERN,
+	division:   PACIFIC,
 }
 var DENVER_NUGGETS = Team{
 	name: DEN,
@@ -15,4 +17,6 @@ var DENVER_NUGGETS = Team{
 		lng:      104.9903,
 		timeZone: MST,
 	},
+	conference: WESTERN,
+	division:   NORTHWEST,
 }

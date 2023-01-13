@@ -33,4 +33,23 @@ const (
 	TOR
 	UTA
 	WSH
+	TEAM_NAME_LIMIT
+)
+
+type Conference int64
+
+const (
+	WESTERN Conference = iota
+	EASTERN
+)
+
+type Division int64
+
+const (
+	ATLANTIC Division = iota
+	CENTRAL
+	SOUTHEAST
+	NORTHWEST
+	PACIFIC
+	SOUTHWEST
 )
